@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "781321138672",
+    "project_id": "quizzapp-b581f",
+    "storage_bucket": "quizzapp-b581f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781321138672:android:ad1a77971e8977832ced35",
+        "android_client_info": {
+          "package_name": "com.example.quizz_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781321138672-k4g7756qd1lalnt3n49gr2n5kpmk0shc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO9Ck38wvBco8HM8CpjeU34xknZ9oEG1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781321138672-k4g7756qd1lalnt3n49gr2n5kpmk0shc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "781321138672-793vc5o1ec9gf4mola0cl3nfrqvufpuf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.quizzMe"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781321138672:android:af3eb128ee34ce942ced35",
+        "android_client_info": {
+          "package_name": "com.example.sakuizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781321138672-k4g7756qd1lalnt3n49gr2n5kpmk0shc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO9Ck38wvBco8HM8CpjeU34xknZ9oEG1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781321138672-k4g7756qd1lalnt3n49gr2n5kpmk0shc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "781321138672-793vc5o1ec9gf4mola0cl3nfrqvufpuf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.quizzMe"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
