@@ -25,7 +25,6 @@ void main() async {
   );
 }
 
-/// Helper class to notify GoRouter when a stream emits a new value.
 class GoRouterRefreshStream extends ChangeNotifier {
   GoRouterRefreshStream(Stream<dynamic> stream) {
     notifyOnStream(stream);
@@ -45,7 +44,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final user = context.watch<User?>();
 
-    // ✅ Set up GoRouter
+  
     final GoRouter router = GoRouter(
       initialLocation: '/',
       refreshListenable: GoRouterRefreshStream(
@@ -72,7 +71,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Quiz App',
       theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
-      routerConfig: router, // ✅ Use GoRouter here
+      routerConfig: router, 
     );
   }
 }
